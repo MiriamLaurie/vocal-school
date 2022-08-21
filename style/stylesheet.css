@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'mr_arenqg';
+    src: url('../fonts/mr_ArenqG/mr_arenqg.ttf');
+    src: local('../fonts/mr_ArenqG'), local('../fonts/mr_ArenqG'),
+        url('../fonts/mr_ArenqG/mr_arenqg.ttf') format('truetype');
+}
