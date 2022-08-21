@@ -4,11 +4,12 @@
 *
     box-sizing: border-box
     margin: 0
+html, body
+    overflow-x: hidden
 body    
     font-family: 'Mulish', sans-serif
     background: #f9e1df
     color: #141414
-    overflow-x: hidden
     ul 
         list-style-type: none
     a 
@@ -68,8 +69,9 @@ body
     flex-direction: column
     align-items: flex-start
     justify-content: space-between
+    margin-right: 15px
     img 
-        max-width: 120px
+        max-width: 100px
 .header__left-mobile
     display: flex
     flex-direction: column
@@ -81,6 +83,9 @@ body
         margin-right: 5px
 .header__adress, .header__tel, .header__social
     margin-bottom: 10px
+    text-align: end
+.header__tel
+    font-size: 18px
 
 .button-burger
     width: 40px
@@ -764,8 +769,6 @@ h2
         display: block
     .gift-sertificat 
         justify-content: center
-    .price__card
-        max-width: 60%
 
     .menu
         position: fixed
@@ -793,7 +796,7 @@ h2
         z-index: 999
 
     .price__card 
-        width: 55%
+        max-width: 95%
         p 
             margin: 5px auto 20px
     .prize__img 
@@ -854,11 +857,11 @@ h2
 
 @media (max-width: 540px)
     .subscription__card 
-        width: 95%
+        width: 90%
     .school-coach__bg 
         top: 335px
     h2, .styles h2
-        font-size: 38px
+        font-size: 34px
     .school-coach__left
         h1 
             font-size: 46px
@@ -895,6 +898,9 @@ h2
     .school-coach__right 
         img 
             max-width: 90%
+    .subscription__card 
+        min-height: 750px
+
 @media (max-width: 423px)
     .school-coach__bg 
         top: 445px
